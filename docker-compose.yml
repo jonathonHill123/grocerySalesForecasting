@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  dev:
+    image: kaggle/python
+    volumes:
+      - .:/root/src/
+    ports:
+      - 8888:8888
+    tty: true
+    command: jupyter notebook --ip=* --allow-root --no-browser --notebook-dir=/root/src/notebooks
