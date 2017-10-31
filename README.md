@@ -4,7 +4,7 @@ Welcome!
 
 ### What is this repository for? ###
 
-* Common research environment - doesn't support version controlling notebooks yet
+* Common research environment
 
 ### How do I get set up? ###
 
