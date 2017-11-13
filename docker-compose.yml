@@ -7,4 +7,4 @@ services:
     ports:
       - 8888:8888
     tty: true
-    command: jupyter notebook --ip=* --allow-root --no-browser --notebook-dir=/root/src/notebooks
+    command: jupyter notebook --ip=* --allow-root --no-browser --notebook-dir=/root/src/
